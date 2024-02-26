@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    height: 80vh;
+    width: 50vh;
+    background-color: rgb(114, 178, 247);
+    border: 1px solid red;
+    /* overflow-y: scroll; */
+    border-radius: 10px;
+    /* overflow-x: hidden; */
+    overflow-wrap: break-word;
+   
+}
+
+h1 {
+    padding-top: 1rem;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+li {
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#input {
+    width: 210px;
+    height: 40px;
+    /* border: none; */
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+#btn {
+    width: 70px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.707);
+}
+
+/* .list-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    /* border: 1px solid red; */
+/* border-radius: 5px; */
+/* width: 100%;
+  margin: 1rem;
+} */
+ #list{
+    display: flex;
+    flex-direction: column;
+     /* flex-direction: row-reverse;  */
+     /* justify-content: space-between; */
+}
+#list li{
+width: 15rem;
+list-style-type: circle;
+font-size: px;
+border: 1px solid red;
+}
+
+#tag {
+    display: flex;
+    flex-direction: column;
+    gap: 16.3px;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 8px;
+
+
+}
+
+#list button {
+    width: 40px;
+    height: 20px;
+    background-color: rgba(255, 0, 0, 0.707);
+    border: none;
+    border-radius: 5PX;
+    font-size: 10px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+#list div{
+    width: 40px;
+    height: 20px;
+    background-color: rgba(255, 0, 0, 0.707);
+    border: none;
+    border-radius: 5PX;
+    font-size: 10px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
