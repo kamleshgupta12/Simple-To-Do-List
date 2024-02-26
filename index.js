@@ -3,8 +3,9 @@ var listItems = document.getElementById("list");
 // console.log(listItems);
 
 function add() {
-    if (inputTag.value === '') {
-        alert("Please Enter Task...")
+    var taskInput = document.getElementById('input').value;
+    if (taskInput.length < 4) {
+        alert("Please Enter vailid Task...");
     }
     else {
         const taskInput = document.getElementById('input');
