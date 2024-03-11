@@ -14,7 +14,6 @@ body {
 
 
 .main {
-
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -35,10 +34,6 @@ body {
 
 
 
-/* ::-webkit-scrollbar{
-    background-color: rgb(114, 178, 247);
-    border-radius: 10px;
-} */
 
 
 h1 {
